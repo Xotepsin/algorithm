@@ -21,7 +21,7 @@ vector<int> solution(vector<string> keymap, vector<string> targets) {
                     pos = (temp != string::npos) ? temp + 1 : 999;
                 } else {
                     if (temp != string::npos) {
-                        pos = std::min(pos, temp + 1);
+                        pos = min(pos, temp + 1);
                     }
                 }
             }
